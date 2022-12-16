@@ -1,0 +1,15 @@
+:root {
+    --main-color:#E5E5E5;
+    --secondary-color:#F7F6FF;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 906px;
+    background: #EBEEF5;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
