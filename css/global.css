@@ -1,15 +1,8 @@
 :root {
     --main-color: #EBEEFE;
     --secondary-color:#F7F6FF;
-}
-
-body {
-    position: relative;
-    display: flex;
-    width: 1440px;
-    height: 906px;
-    background: var(--main-color);
-    margin: 0;
+    --third-color:#C4C4C4;
+    --fourth-color:#02577A;
 }
 
 body {

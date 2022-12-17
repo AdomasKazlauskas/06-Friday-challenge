@@ -15,26 +15,34 @@
     </style>
 </head>
 
-<body>
-    <header class="container">
-        <div class="main-header">
-            <img class="logo" src="./assets/Logo.png" alt="Logo">
-            <nav class="main-nav">
-                <a class="link active" href="#"><img src="./assets/House.png" alt="House">Home</a>
-                <a class="link" href="#"><img src="./assets/Calendar.png" alt="Calendar">Calendar</a>
-                <a class="link" href="#"><img src="./assets/Boxes.png" alt="Boxes">FE</a>
-                <a class="link" href="#"><img src="./assets/Joystick.png" alt="Joystick">Games</a>
-            </nav>
-        </div>
+<body class="body">
+    <header>
+        <nav class="main-nav">
+            <div href="#">
+                <img src="./assets/Logo.png" alt="BIT" class="logo">
+            </div>
+            <div class="line"></div>
+            <div class="container home">
+                <img src="./assets/House.png" alt="Home" class="icon"/>
+                <a href="#" class="selected hidden" class="home">Home</a>
+            </div>
+            <div class="container other">
+                <img src="./assets/Calendar.png" alt="Calendar" class="icon"/>
+                <a href="#" class="hidden" class="home">Calendar</a>
+            </div>
+            <div class="container other">
+                <img src="./assets/Boxes.png" alt="Components" class="icon"/>
+                <a href="#" class="hidden" class="home">FE</a>
+            </div>
+            <div class="container other">
+                <img src="./assets/Joystick.png" alt="Games" class="icon"/>
+                <a href="#" class="hidden pad" class="home">Games</a>
+            </div>
+        </nav>
     </header>
 
-    <main class="container main-content">
-    </main>
-
     <footer class="bottom">
-        <div>
-            <p class="description">&copy; Baltic Instituce of Technology</p>
-        </div>
+        <div><p class="description">&copy; Baltic Instituce of Technology</p></div>
     </footer>
 </body>
 
