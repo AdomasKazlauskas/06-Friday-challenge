@@ -101,13 +101,14 @@
 }
 
 .bottom {
+    position: absolute;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     align-self: flex-end;
     width: 346px;
-    margin-left: calc((100vw - 50%) - 308px);
+    margin-left: calc((100vw - 50%) - 206px);
     color: var(--fourth-color);
     font-style: normal;
     height: 35px;
